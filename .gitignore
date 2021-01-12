@@ -1,0 +1,6 @@
+.eslintcache
+
+client/node_modules
+
+server/secrets.js
+server/node_modules
