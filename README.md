@@ -26,6 +26,7 @@ Like a todo list, but more customizable
 -   [ ] edit thing
 -   [ ] check a thing
 -   [ ] uncheck a checked thing
+-   [ ] variable frequencies instead of choosing # days, weeks, etc (e.g. "every gym visit")
 -   [ ] record timestamp when thing is checked
 -   [ ] delete timestamp when thing is unchecked
 -   [ ] use timestamps to show stats
