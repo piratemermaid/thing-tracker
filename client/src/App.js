@@ -54,11 +54,11 @@ class App extends Component {
             url: "/api/user/user_things"
         });
 
-        console.log(userThings.data);
+        this.setState({ userThings: userThings.data });
     }
 
     render() {
-        const { authenticated } = this.state;
+        const { authenticated, userThings } = this.state;
 
         const AuthHome = RequireAuth(Home);
 
@@ -83,6 +83,7 @@ class App extends Component {
                                 <AuthHome
                                     authenticated={authenticated}
                                     authenticateUser={this.authenticateUser}
+                                    userThings={userThings}
                                 />
                             )}
                         />

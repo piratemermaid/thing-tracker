@@ -3,6 +3,8 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import { withRouter } from "react-router";
 
+import AllThingsList from "../components/AllThingsList";
+
 const Home = (props) => {
     const logOut = () => {
         axios({
@@ -24,6 +26,7 @@ const Home = (props) => {
         <div>
             <h1>Home</h1>
             <h2>All of Your Things</h2>
+            <AllThingsList userThings={props.userThings} />
         </div>
     );
 };
