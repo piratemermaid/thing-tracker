@@ -16,17 +16,17 @@ Like a todo list, but more customizable
 
 ## developer todos
 
-[] display user's categories and things
-[] sorting (category, date)
-[] add category
-[] add thing
-[] remove category
-[] remove thing
-[] edit category
-[] edit thing
-[] check a thing
-[] uncheck a checked thing
-[] record timestamp when thing is checked
-[] delete timestamp when thing is unchecked
-[] use timestamps to show stats
-[] maybe later: add goals and progress tracking
+-   [ ] display user's categories and things
+-   [ ] sorting (category, date)
+-   [ ] add category
+-   [ ] add thing
+-   [ ] remove category
+-   [ ] remove thing
+-   [ ] edit category
+-   [ ] edit thing
+-   [ ] check a thing
+-   [ ] uncheck a checked thing
+-   [ ] record timestamp when thing is checked
+-   [ ] delete timestamp when thing is unchecked
+-   [ ] use timestamps to show stats
+-   [ ] maybe later: add goals and progress tracking
