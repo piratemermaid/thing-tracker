@@ -28,7 +28,7 @@ class Login extends Component {
                     if (this.props.playthrough) {
                         this.props.history.push("/");
                     } else {
-                        this.props.history.push("/new_playthrough");
+                        this.props.history.push("/");
                     }
                 }
             })
