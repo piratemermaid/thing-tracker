@@ -7,8 +7,7 @@ const testUser = {
     sessionId: "123"
 };
 
-const categories = ["Workout", "Plant Care", "Pet Care"];
-
+const categories = ["Workout", "Plant Care", "Pet Care", "Adulting", "Notes"];
 const things = [
     {
         name: "Jug hang/pullups",

@@ -3,7 +3,6 @@ const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 const accountRouter = require("./api/routes/account");
 const userRouter = require("./api/routes/user");
-const appRouter = require("./api/routes/app");
 
 const app = express();
 
@@ -12,7 +11,6 @@ app.use(cookieParser());
 
 app.use("/api/account", accountRouter);
 app.use("/api/user", userRouter);
-app.use("/api/app", appRouter);
 
 app.use((err, req, res, next) => {
     const statusCode = err.statusCode || 500;

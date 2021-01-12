@@ -12,7 +12,7 @@ class App extends Component {
     constructor(props) {
         super(props);
 
-        this.state = { authenticated: false };
+        this.state = { authenticated: false, userThings: [] };
 
         this.authenticateUser = this.authenticateUser.bind(this);
     }
@@ -48,6 +48,13 @@ class App extends Component {
             .catch((err) => {
                 console.log(err);
             });
+
+        const userThings = await axios({
+            method: "get",
+            url: "/api/user/user_things"
+        });
+
+        console.log(userThings.data);
     }
 
     render() {
